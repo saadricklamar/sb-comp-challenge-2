@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>NBA Player Profile</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="sidebar">
+        <div>
+          <img src="images/curry.jpeg" class="profile-pic"/>
+          <p>Stephen Curry <i class="fas fa-angle-down"></i></p>
+        </div>
+          <hr>
+        <h5>Main</h5>
+         <button><i class="fas fa-basketball-ball"></i>LEAGUE</button>
+         <button><i class="far fa-id-badge"></i>TEAMS</button>
+         <button><i class="fas fa-users"></i>PLAYERS</button>
+         <button><i class="fas fa-calculator"></i>STATISICS</button>
+         <button><i class="far fa-calendar-check"></i>SCHEDULE</button>
+          <hr>
+        <h5>Seasons</h5>
+         <button><i class="fas fa-award"></i> 2018-2019</button>
+         <button><i class="fas fa-award"></i> 2017-2018</button>
+         <button><i class="fas fa-award"></i> 2016-2017</button>
+         <button><i class="fas fa-award"></i> 2015-2016</button>
+         <button><i class="fas fa-award"></i> 2014-2015</button>
+          <hr>
+        <h5>Networks</h5>
+         <input type="checkbox" id="espn">
+         <label for="espn"> ESPN</label>
+         <input type="checkbox" id="nbatv">
+         <label for="nbatv"> NBA TV</label>
+         <input type="checkbox" id="bleacher">
+         <label for="bleacher"> Bleacher</label>
+         <input type="checkbox" id="ringer">
+         <label for="ringer"> The Ringer</label>
+      </section>
+      <section class="searchbar">
+        <button><i class="fas fa-caret-left"></i><i class="fas fa-bars"></i></button>
+        <input type="text" name="search" placeholder="Enter a Player, Team, or Statistical Category"> 
+        <button><i class="far fa-user"></i></button>
+        <button><i class="far fa-calendar-alt"></i></button>
+        <button><i class="fas fa-grip-horizontal"></i></button>
+      </section>
+      <header>
+        <h1>Golden State Warriors</h1>
+        <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA <i class="fas fa-circle"></i> <span> 2009-Present</span></p>
+        <ul class="pages">
+          <li>SUMMARY</li>
+          <li>WIKI</li>
+          <li>VIDEOS</li>
+          <li>SOCIAL MEDIA</li>
+          <li>ADVANCED STATS</li>
+          <li>AWARDS</li>
+          <li>CHARITIES</li>
+        </ul>
+        <article class="header-buttons">
+          <button id="open"><i class="fas fa-circle" class="green-circle"></i> OPEN</button>
+          <button id="mark"><i class="fas fa-bookmark"></i></button>
+          <button id="pencil"><i class="fas fa-pencil-alt"></i></button>
+          <button id="trash"><i class="far fa-trash-alt"></i></button>
+        </article>
+      </header>
+      <main>
+        <article class="circle1">
+          <p class="percentage">49.2%</p>
+          <p>FIELD GOAL</p>
+        </article>
+        <article class="circle2">
+          <p class="percentage">44.8%</p>
+          <p>3PT SHOT</p>
+        </article>
+        <article class="circle3">
+          <p class="percentage">91.7%</p>
+          <p>FREE THROWS</p>
+        </article>
+        <img src="images/Curry-Stats.png" class="stats-table"/>
+        <div class="chart-buttons">
+         <button class="circle-chart-button">TOTALS <i class="fas fa-circle"></i> Out of 400 players</button>
+         <button class="shooting-graph-button"> 3PT SHOTS/GAME</button>
+        </div>
+         <h3 class="split-line"><span><i class="fas fa-chevron-circle-up"></i></span></h3>
+      </main>
+      <footer>
+        <article class="player-profile">
+          <header>
+            <p>PLAYER PROFILE</p>
+            <button id="edit"><i class="fas fa-pencil-alt"></i> EDIT</button>
+          </header>
+          <section class="player-info">
+            <h4>POSITION</h4>
+              <p>Point Guard</p>
+              <hr>
+            <h4>BORN</h4>
+              <p>Akron, Ohio</p>
+              <hr>
+            <h4>LISTED HEIGHT</h4>
+              <p>6'3</p>
+              <hr>
+            <h4>COLLEGE</h4>
+              <p>Davidson (2006-2009)</p>
+              <hr>
+            <h4>NBA DRAFT</h4>
+              <p>2009 / Round: 1 / Pick: 7th overall. Selected by Golden State Warriors</p>
+              <hr>
+            <h4>PLAYING STYLE</h4>
+              <p>Curry's shooting ability ranges from scoring in great volume from<br>
+               underneath the rim all the way to near half-court. Using an unorthodox<br>
+               jump shot, he is able to get the ball out of his hands in under half a<br>
+               second by releasing it on the way up, adding extra arc to his shot and<br>
+               making it difficult to block</p>
+              <hr>
+            <h4>NICKNAMES</h4>
+              <p>Steph, Baby-Faced Assasin, Chef Curry, The Human Torch, Threezus</p>
+              <hr>
+            <h4>AWARDS</h4>
+              <p><b>3x NBA Champion (2015, 2017, 2018)<br>
+              2x NBA MVP (2015,2016)<br> 
+              6x NBA All-Star<br>
+              NBA steals leader (2016)<br>
+              50-40-90 club (2016)</b></p>
+          </section>
+        </article> 
+        <article class="player-socialmedia">
+          <button class="facebook"><i class="fab fa-facebook-f"></i> Steph's Facebook</button>
+          <button class="twitter"><i class="fab fa-twitter"></i> Steph's Twitter</button>
+          <button class="linkedin"><i class="fab fa-linkedin"></i> Steph's Linkedin</button>
+            <section class="actions">
+              <h4><i class="fas fa-globe-americas"></i> Share This Player's Profile</h4>
+              <p>Share Stephen Curry's player profile page<br/>
+              with your family or friends. 
+              </p>
+              <input type="text" name="share" placeholder=" https://NBAplayerpro..."><div> Copy</div>
+              <hr>
+              <h4><i class="far fa-list-alt"></i> Use The NBA Widget</h4>
+              <p>Use the NBA widget to live stream games,<br/>
+              shows, player interviews.</p>
+              <input type="text" name="share" placeholder=" https://NBAwidget.com"><div> Copy</div>
+              <hr>
+              <h4><i class="fas fa-location-arrow"></i> Subscribe To Our Site</h4>
+              <p>Stay up to date with NBA news, discounts, <br/>
+              and events by entering your email.</p>
+              <input type="text" name="share" placeholder=" example: saadbar7@y..." class="subscribe">
+            </section>        
+        </article> 
+      </footer>
+    </section>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
