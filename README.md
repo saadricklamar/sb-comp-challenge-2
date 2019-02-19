@@ -1,6 +1,5 @@
 This Static Comp had us replicate an in-depth profile page with a sidebar, searchbar, and graphs. Since I did an NBA theme 
-for my CARD UI, I decided to stick with that theme by creating an NBA profile page. Users can search for specific teams, 
-players, or statistical categories. This site is fairly responsive when it comes to tablets and mobile phones. 
+for my CARD UI, I decided to stick with that theme by creating a NBA profile page. In theory, users can search for specific teams, players, or statistical categories. This site is fairly responsive when it comes to tablets and mobile phones. 
 
 
 
